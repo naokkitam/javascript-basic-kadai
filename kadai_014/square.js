@@ -1,6 +1,6 @@
 const square = (num) => {
-  console.log(num * num);
+  return num * num;
 }
 
 // 関数を呼び出す
-square(6);
+console.log(square(6));
